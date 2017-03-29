@@ -21,6 +21,7 @@ void parseCmd(char *cmd, pid_t pid)
     char *p;
 
     p = strtok(cmd, delim);
+    helo
     printf("%s\n", p);
     while(p)
     {
